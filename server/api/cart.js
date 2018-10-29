@@ -11,3 +11,7 @@ router.get('/', async (req, res, next) => {
     next(e)
   }
 })
+
+router.post('/', async(req,res, next)=>{
+  //...
+})
